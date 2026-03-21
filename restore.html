@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>진행상황 복구 중...</title>
+<style>
+  body { font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #f0f2f5; }
+  .box { background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 400px; }
+  h2 { color: #27ae60; margin-bottom: 12px; }
+  p { color: #666; margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div class="box">
+  <div style="font-size:60px">⏳</div>
+  <h2>진행상황 복구 중...</h2>
+  <p id="msg">잠시만 기다려주세요</p>
+</div>
+<script>
+const data = {"06. AP 2021/08.png": {"correct": 2, "wrong": 0, "mastered": true}, "06. AP 2021/07.png": {"correct": 0, "wrong": 1, "mastered": false}, "06. AP 2021/01.png": {"correct": 2, "wrong": 0, "mastered": true}, "06. AP 2021/03.png": {"correct": 2, "wrong": 0, "mastered": true}, "06. AP 2021/04.png": {"correct": 0, "wrong": 1, "mastered": false}, "06. AP 2021/05.png": {"correct": 2, "wrong": 0, "mastered": true}, "06. AP 2021/06.png": {"correct": 0, "wrong": 1, "mastered": false}, "06. AP 2021/09.png": {"correct": 2, "wrong": 0, "mastered": true}, "06. AP 2021/10.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/01.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/02.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/03.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/04.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/05.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/06.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/07.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/08.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/09.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/10.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/13.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/11.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/12.png": {"correct": 1, "wrong": 0, "mastered": true}, "06. AP 2021/02.png": {"correct": 1, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/14.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/15.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/16.png": {"correct": 2, "wrong": 0, "mastered": true}, "01. RIPMWC 2021/17.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/18.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/19.png": {"correct": 0, "wrong": 1, "mastered": false}, "01. RIPMWC 2021/20.png": {"correct": 0, "wrong": 1, "mastered": false}, "02. RIPMWC 2022/01.png": {"correct": 1, "wrong": 0, "mastered": true}, "02. RIPMWC 2022/02.png": {"correct": 0, "wrong": 1, "mastered": false}, "02. RIPMWC 2022/04.png": {"correct": 1, "wrong": 0, "mastered": true}, "02. RIPMWC 2022/05.png": {"correct": 0, "wrong": 1, "mastered": false}, "02. RIPMWC 2022/08.png": {"correct": 1, "wrong": 0, "mastered": true}, "02. RIPMWC 2022/09.png": {"correct": 1, "wrong": 0, "mastered": true}, "02. RIPMWC 2022/10.png": {"correct": 1, "wrong": 1, "mastered": true}, "02. RIPMWC 2022/03.png": {"correct": 0, "wrong": 1, "mastered": false}, "02. RIPMWC 2022/06.png": {"correct": 1, "wrong": 0, "mastered": true}, "02. RIPMWC 2022/07.png": {"correct": 0, "wrong": 1, "mastered": false}};
+
+try {
+  localStorage.setItem('math_quiz_progress', JSON.stringify(data));
+  document.querySelector('div.box').innerHTML = `
+    <div style="font-size:60px">✅</div>
+    <h2>복구 완료!</h2>
+    <p>2초 후 앱으로 이동합니다...</p>
+  `;
+  setTimeout(() => { location.href = './index.html'; }, 2000);
+} catch(e) {
+  document.getElementById('msg').textContent = '오류: ' + e.message;
+}
+</script>
+</body>
+</html>
