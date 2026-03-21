@@ -147,9 +147,14 @@
     - 목록에서 특정 문제 클릭 → 바로 이동
   </div>
   <div class="guide">
-    <strong>💾 진행상황 저장</strong><br>
-    - 이 기기의 브라우저에 자동 저장됩니다<br>
-    - 다른 기기에서 접속하면 진행상황이 초기화됩니다
+    <strong>💾 진행상황 백업 / 복원</strong><br>
+    - 진행상황은 이 기기 브라우저에 자동 저장됩니다<br>
+    - 다른 기기로 옮기거나 백업하려면 아래 버튼을 사용하세요<br><br>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn btn-primary" style="padding:9px 20px;font-size:14px" onclick="exportProgress()">📥 내보내기 (백업)</button>
+      <button class="btn btn-outline" style="padding:9px 20px;font-size:14px" onclick="document.getElementById('import-file').click()">📤 가져오기 (복원)</button>
+      <input type="file" id="import-file" accept=".json" style="display:none" onchange="importProgress(event)">
+    </div>
   </div>
 </div>
 
@@ -425,6 +430,34 @@ function loadSpecificProblem(problemName) {
   const img = document.getElementById('problem-img');
   img.style.display = '';
   img.src = `problems/${imgPath('problems', problem.name)}`;
+}
+
+function exportProgress() {
+  const data = localStorage.getItem(STORAGE_KEY) || '{}';
+  const blob = new Blob([data], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `math_quiz_backup_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+}
+
+function importProgress(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      progress = data;
+      alert('✅ 복원 완료! 앱을 새로고침합니다.');
+      location.reload();
+    } catch {
+      alert('❌ 파일이 올바르지 않습니다.');
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
 }
 
 init();
