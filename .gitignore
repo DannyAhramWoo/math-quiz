@@ -1,0 +1,7 @@
+problems/
+answers/
+progress.json
+progress.json.bak
+__pycache__/
+.DS_Store
+*.pyc
