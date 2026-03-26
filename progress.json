@@ -278,5 +278,10 @@
     "correct": 1,
     "wrong": 0,
     "mastered": true
+  },
+  "03. RI 2023/07.png": {
+    "correct": 0,
+    "wrong": 1,
+    "mastered": false
   }
 }
