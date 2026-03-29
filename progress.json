@@ -333,5 +333,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "04. RI 2024/19.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
