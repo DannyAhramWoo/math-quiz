@@ -438,5 +438,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "05. RMO 2025/10.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
