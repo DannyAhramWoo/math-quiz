@@ -390,9 +390,9 @@
     "mastered": true
   },
   "04. RI 2024/08.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "04. RI 2024/09.png": {
     "correct": 0,
