@@ -505,9 +505,9 @@
     "mastered": false
   },
   "05. RMO 2025/06.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "05. RMO 2025/13.png": {
     "correct": 0,
