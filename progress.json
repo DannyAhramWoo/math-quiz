@@ -120,9 +120,9 @@
     "mastered": false
   },
   "01. RI 2021/15.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 2,
-    "mastered": false
+    "mastered": true
   },
   "01. RI 2021/16.png": {
     "correct": 2,
