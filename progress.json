@@ -568,5 +568,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "06. AP 2021/18.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
