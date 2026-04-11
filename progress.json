@@ -613,5 +613,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "06. AP 2021/27.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
