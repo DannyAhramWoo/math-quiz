@@ -1,4 +1,4 @@
-const PROBLEMS_DATA = {
+const PROBLEMS_DATA={
   "01. RI 2021": [
     {
       "name": "01. RI 2021/01.png",
@@ -900,122 +900,144 @@ const PROBLEMS_DATA = {
   "10. AP 2025": [
     {
       "name": "10. AP 2025/01.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/02.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/03.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/04.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/05.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/06.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/07.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/08.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/09.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/10.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/11.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/12.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/13.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/14.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/15.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/16.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/17.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/18.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/19.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/20.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/21.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/22.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/23.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/24.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/25.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/26.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/27.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/28.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/29.png",
-      "has_answer": false
+      "has_answer": true
     },
     {
       "name": "10. AP 2025/30.png",
+      "has_answer": true
+    }
+  ],
+  "APMOPS 2022": [
+    {
+      "name": "APMOPS 2022/08.png",
+      "has_answer": false
+    },
+    {
+      "name": "APMOPS 2022/09.png",
+      "has_answer": false
+    },
+    {
+      "name": "APMOPS 2022/18.png",
+      "has_answer": false
+    },
+    {
+      "name": "APMOPS 2022/19.png",
+      "has_answer": false
+    },
+    {
+      "name": "APMOPS 2022/22.png",
       "has_answer": false
     }
   ],
