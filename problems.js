@@ -1019,29 +1019,7 @@ const PROBLEMS_DATA={
       "has_answer": true
     }
   ],
-  "APMOPS 2022": [
-    {
-      "name": "APMOPS 2022/08.png",
-      "has_answer": false
-    },
-    {
-      "name": "APMOPS 2022/09.png",
-      "has_answer": false
-    },
-    {
-      "name": "APMOPS 2022/18.png",
-      "has_answer": false
-    },
-    {
-      "name": "APMOPS 2022/19.png",
-      "has_answer": false
-    },
-    {
-      "name": "APMOPS 2022/22.png",
-      "has_answer": false
-    }
-  ],
-  "NM 2008": [
+"NM 2008": [
     {
       "name": "NM 2008/01.png",
       "has_answer": false
