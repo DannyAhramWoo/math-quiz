@@ -728,5 +728,10 @@
     "correct": 1,
     "wrong": 0,
     "mastered": true
+  },
+  "10. AP 2025/20.png": {
+    "correct": 0,
+    "wrong": 1,
+    "mastered": false
   }
 }
