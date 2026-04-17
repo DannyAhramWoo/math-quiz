@@ -715,9 +715,9 @@
     "mastered": true
   },
   "10. AP 2025/17.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "10. AP 2025/18.png": {
     "correct": 0,
