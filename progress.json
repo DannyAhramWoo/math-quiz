@@ -963,5 +963,10 @@
     "correct": 1,
     "wrong": 0,
     "mastered": true
+  },
+  "02. NM 2010/19.png": {
+    "correct": 0,
+    "wrong": 1,
+    "mastered": false
   }
 }
