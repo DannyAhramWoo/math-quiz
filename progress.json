@@ -1208,5 +1208,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "03. NM 2011/26.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
