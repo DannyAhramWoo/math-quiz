@@ -1573,5 +1573,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "06. NM 2014/09.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
