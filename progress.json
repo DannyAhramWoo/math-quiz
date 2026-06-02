@@ -1818,5 +1818,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "07. NM 2015/28.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
