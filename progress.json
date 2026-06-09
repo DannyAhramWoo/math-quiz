@@ -2133,5 +2133,10 @@
     "correct": 0,
     "wrong": 1,
     "mastered": false
+  },
+  "10. NM 2018/01.png": {
+    "correct": 1,
+    "wrong": 0,
+    "mastered": true
   }
 }
