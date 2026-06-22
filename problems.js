@@ -1869,6 +1869,74 @@ const PROBLEMS_DATA={
       "has_answer": true
     },
     {
+      "name": "31. Mock/3_4.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_6.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_13.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_15.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_17.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_22.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_24.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_25.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_26.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_27.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_29.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_30.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_31.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_32.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_33.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_34.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/3_35.png",
+      "has_answer": true
+    },
+    {
       "name": "31. Mock/4_3.png",
       "has_answer": true
     },
