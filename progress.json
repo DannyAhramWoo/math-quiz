@@ -975,9 +975,9 @@
     "mastered": true
   },
   "02. NM 2010/21.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "02. NM 2010/22.png": {
     "correct": 1,
