@@ -2207,6 +2207,82 @@ const PROBLEMS_DATA={
     {
       "name": "31. Mock/7_35.png",
       "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_4.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_8.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_11.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_14.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_15.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_16.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_19.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_21.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_24.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_25.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_26.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_27.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_28.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_29.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_31.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_32.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_33.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_34.png",
+      "has_answer": true
+    },
+    {
+      "name": "31. Mock/8_35.png",
+      "has_answer": true
     }
   ],
   "51. RI 2021": [
