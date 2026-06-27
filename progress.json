@@ -790,9 +790,9 @@
     "mastered": true
   },
   "01. NM 2008/02.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "01. NM 2008/03.png": {
     "correct": 1,
