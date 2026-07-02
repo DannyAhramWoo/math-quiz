@@ -1175,9 +1175,9 @@
     "mastered": true
   },
   "03. NM 2011/19.png": {
-    "correct": 1,
+    "correct": 0,
     "wrong": 1,
-    "mastered": true
+    "mastered": false
   },
   "03. NM 2011/20.png": {
     "correct": 1,
@@ -1191,7 +1191,7 @@
   },
   "03. NM 2011/22.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "03. NM 2011/23.png": {
@@ -1201,13 +1201,13 @@
   },
   "03. NM 2011/24.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "03. NM 2011/25.png": {
-    "correct": 1,
+    "correct": 0,
     "wrong": 1,
-    "mastered": true
+    "mastered": false
   },
   "03. NM 2011/26.png": {
     "correct": 1,
@@ -1221,17 +1221,17 @@
   },
   "03. NM 2011/28.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "03. NM 2011/29.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "03. NM 2011/30.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "04. NM 2012/01.png": {
@@ -1290,9 +1290,9 @@
     "mastered": true
   },
   "04. NM 2012/12.png": {
-    "correct": 1,
+    "correct": 0,
     "wrong": 1,
-    "mastered": true
+    "mastered": false
   },
   "04. NM 2012/13.png": {
     "correct": 1,
@@ -1306,7 +1306,7 @@
   },
   "04. NM 2012/15.png": {
     "correct": 0,
-    "wrong": 2,
+    "wrong": 1,
     "mastered": false
   },
   "04. NM 2012/16.png": {
