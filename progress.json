@@ -1380,9 +1380,9 @@
     "mastered": true
   },
   "04. NM 2012/30.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "05. NM 2013/01.png": {
     "correct": 1,
