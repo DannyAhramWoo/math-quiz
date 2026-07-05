@@ -1925,9 +1925,9 @@
     "mastered": false
   },
   "08. NM 2016/20.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "08. NM 2016/21.png": {
     "correct": 1,
