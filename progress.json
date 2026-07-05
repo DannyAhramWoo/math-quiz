@@ -1825,9 +1825,9 @@
     "mastered": true
   },
   "07. NM 2015/30.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "08. NM 2016/01.png": {
     "correct": 1,
