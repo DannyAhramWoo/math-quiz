@@ -1850,9 +1850,9 @@
     "mastered": true
   },
   "08. NM 2016/05.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "08. NM 2016/06.png": {
     "correct": 1,
