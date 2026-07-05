@@ -1965,9 +1965,9 @@
     "mastered": false
   },
   "08. NM 2016/28.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "08. NM 2016/29.png": {
     "correct": 0,
