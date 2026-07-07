@@ -2235,9 +2235,9 @@
     "mastered": false
   },
   "10. NM 2018/22.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "10. NM 2018/23.png": {
     "correct": 0,
