@@ -2805,9 +2805,9 @@
     "mastered": true
   },
   "31. Mock/1_14.png": {
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "mastered": false
+    "mastered": true
   },
   "31. Mock/1_15.png": {
     "correct": 1,
